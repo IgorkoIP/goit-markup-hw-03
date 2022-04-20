@@ -9,6 +9,7 @@
   --second-btn-color: #ffffff;
   --accent-color: #2196f3;
   --text-color: #757575;
+  --tupical-margin-botoom: 30px;
 }
 
 body {
@@ -36,12 +37,24 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
 .link {
   text-decoration: none;
 }
 
 .list {
   list-style: none;
+}
+
+.container {
+  width: 1600px;
+  padding-left: 215px;
+  padding-right: 215px;
+  margin: 0 auto;
+  outline: 1px solid red;
 }
 
 .visually-hidden {
@@ -81,6 +94,8 @@ button {
 
 .header {
   background-color: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-logo-second-color {
@@ -125,6 +140,9 @@ button {
 
 .hero {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-bottom: 94px;
 }
 
 .hero-title {
@@ -135,6 +153,8 @@ button {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-title-color);
+  margin-bottom: var(--tupical-margin-botoom);
+  max-width: 696px;
 }
 
 .hero-btn {
@@ -160,6 +180,11 @@ button {
 
 .about {
   background-color: #ffffff;
+  margin-bottom: 94px;
+}
+
+.about-list {
+  margin-bottom: 94px;
 }
 
 .about-title {
@@ -169,7 +194,9 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-title-color);
+  margin-bottom: 10px;
 }
+
 .about-text {
   font-size: 14px;
   line-height: 1.71;
@@ -178,8 +205,28 @@ button {
 }
 
 /* ------------- GALLERY ------------- */
+.gallery {
+  margin-bottom: 94px;
+}
+
+.gallery-title {
+  margin-bottom: 50px;
+}
 
 /* ------------- MASTERS ------------- */
+
+.masters {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+.masters-title {
+  margin-bottom: 50px;
+}
+
+.masters-img {
+  margin-bottom: 30px;
+}
 
 .masters-item-title {
   font-weight: 500;
@@ -188,6 +235,7 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--person-title-color);
+  margin-bottom: 10px;
 }
 
 .masters-item-text {
@@ -196,6 +244,7 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--about-person-title-color);
+  margin-bottom: 30px;
 }
 
 /* ------------- FOOTER ------------- */
@@ -204,7 +253,7 @@ button {
   background-color: #2f303a;
 }
 
-a > .footer-logo-second-color {
+a .footer-logo-second-color {
   color: #ffffff;
 }
 
@@ -248,7 +297,6 @@ a > .footer-logo-second-color {
   letter-spacing: 0.03em;
   color: var(--main-btn-color);
   background-color: #f5f4fa;
-  cursor: pointer;
 }
 
 .portfolio-btn:hover,
