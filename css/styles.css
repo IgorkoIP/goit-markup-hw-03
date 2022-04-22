@@ -54,7 +54,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .section {
@@ -379,6 +379,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-btn-color);
   background-color: #f5f4fa;
+  border-radius: 4px;
 }
 
 .portfolio-btn:hover,
@@ -408,7 +409,7 @@ img {
 }
 
 .project-contaction {
-  background: #ffffff;
+  background-color: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   padding: 20px 24px 20px 24px;
